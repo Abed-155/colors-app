@@ -1,0 +1,13 @@
+.color-display{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cng-btn{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
