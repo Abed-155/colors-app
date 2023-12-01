@@ -8,7 +8,34 @@
 </head>
 <body>
     
-    <div class="color-display">
+    <div class="app">
+        <div class="top-head">
+            <p class="heading">Color Field</p>
+            <div>
+                <button class="btn" id="save-btn">save</button>
+                <button class="btn" id="change-btn">change</button>
+            </div>
+        </div>
+        <div class="color-field">
+            <div class="color-display"></div>
+            <div class="color-input">
+                <div class="input-group">
+                    <span>R</span>
+                    <input type="range" name="range" id="range">
+                    <input type="number" name="number" id="number" min="0" max="255" placeholder="red" class="rgb-input">
+                </div>
+                <div class="input-group">
+                    <span>G</span>
+                    <input type="range" name="range" id="range">
+                    <input type="number" name="number" id="number" min="0" max="255" placeholder="green" class="rgb-input">
+                </div>
+                <div class="input-group">
+                    <span>B</span>
+                    <input type="range" name="range" id="range">
+                    <input type="number" name="number" id="number" min="0" max="255" placeholder="blue" class="rgb-input">
+                </div>
+            </div>
+        </div>
         <div>
             <p class="rgb-code">rgb(0,0,0)</p>
             <p class="hex-code">#000000</p>
